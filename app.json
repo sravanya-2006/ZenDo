@@ -4,17 +4,24 @@
     "slug": "ZenDo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0  
+    },
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -22,6 +29,7 @@
       },
       "edgeToEdgeEnabled": true
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     }
